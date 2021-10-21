@@ -1,12 +1,13 @@
 import { ContentComponent } from './Components/content/content.component';
-import { IndexComponent } from './Components/index/index.component';
-import { RegisterComponent } from './Components/register/register.component';
+import { IndexComponent } from './Pages/index/index.component';
+import { RegisterComponent } from './Pages/register/register.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', component: IndexComponent},
+  { path: 'inicio', component: IndexComponent},
   { path: 'register', component: RegisterComponent},
+  { path: '**', pathMatch: 'full', component: IndexComponent},
   { path: 'content', component: ContentComponent}
 ];
 

@@ -1,10 +1,11 @@
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IndexComponent } from './Components/index/index.component';
-import { RegisterComponent } from './Components/register/register.component';
+import { IndexComponent } from './Pages/index/index.component';
+import { RegisterComponent } from './Pages/register/register.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentComponent } from './Components/content/content.component';
@@ -27,6 +28,7 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    RouterModule,
     MatSidenavModule,
     MatListModule,
     MatIconModule
