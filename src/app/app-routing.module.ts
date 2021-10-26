@@ -7,8 +7,9 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: 'inicio', component: IndexComponent},
   { path: 'register', component: RegisterComponent},
-  { path: '**', pathMatch: 'full', component: IndexComponent},
-  { path: 'content', component: ContentComponent}
+  { path: 'content', component: ContentComponent},
+  { path: '**', pathMatch: 'full', component: IndexComponent}
+
 ];
 
 @NgModule({
