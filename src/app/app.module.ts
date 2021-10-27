@@ -9,6 +9,8 @@ import { RegisterComponent } from './Pages/register/register.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentComponent } from './Components/content/content.component';
+import { JornadaComponent } from './Components/jornada/jornada.component';
+import { ResumenComponent } from './Components/resumen/resumen.component';
 
 
 //MATERIAL
@@ -24,7 +26,10 @@ import { SidevarComponent } from './Components/sidevar/sidevar.component';
     RegisterComponent,
     HeaderComponent,
     ContentComponent,
-    SidevarComponent
+    SidevarComponent,
+    JornadaComponent,
+    ResumenComponent
+
   ],
   imports: [
     BrowserModule,
