@@ -166,3 +166,19 @@ h2 {
     color: white;
     font-style: oblique;
 }
+
+.content {
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 10%;
+}
+
+.right {
+    float: left;
+    width: 90%;
+    height: 100%;
+    border: steelblue solid 1px;
+}
